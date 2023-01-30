@@ -162,7 +162,7 @@ export default class OTPInputView extends Component {
             testID="textInput"
             underlineColorAndroid="rgba(0,0,0,0)"
             style={
-              selectedIndex === index || digits[index] !== ""
+              selectedIndex >= index
                 ? [
                     defaultTextFieldStyle,
                     codeInputFieldStyle,
