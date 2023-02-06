@@ -127,9 +127,9 @@ export default class OTPInputView extends Component {
     };
     this.blurAllFields = () => {
       this.fields.forEach((field) => field.blur());
-      this.setState({
-        selectedIndex: -1,
-      });
+      // this.setState({
+      //   selectedIndex: -1,
+      // });
     };
     this.clearAllFields = () => {
       const { clearInputs, code } = this.props;
